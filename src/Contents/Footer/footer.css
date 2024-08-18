@@ -3,44 +3,45 @@
     padding: 0;
 }
 .Footer{
-    height: 260px;
+    height: 300px;
     width: 100%;
-    background-color: rgb(57, 57, 55);
-}
-.ContentBox1{
-    height: 200px;
-    width: 100%;
+    background-color: grey;
     display: flex;
-    justify-content: space-around;
-    align-items: center;
-    border-bottom: 4px solid rgb(70, 69, 69);
-    color: white;
 }
-.Contents01{
-    height: 150px;
-    width: 300px;
+.FooterSection1{
+    height: 300px;
+    width: 60%;
 }
-.Contents02{
-    height: 170px;
-    width: 800px;
+.FooterSection2{
+    height: 300px;
+    width: 40%;
     display: flex;
     justify-content: space-around;
     align-items: center;
 }
-.Contents02 .FooterCard{
-    height: 180px;
-    width: 200px;
-    gap: 5px;
+.MessageBox{
+    height: 250px;
+    width: 500px;
 }
-.ContentBox2{
-    height: 60px;
-    width: 100%;
+.MessageBox .Data{
+    height: 35px;
+    width: 240px;
+    border-radius: 5px;
+    border: none;
+    box-shadow: rgb(204, 219, 232) 3px 3px 6px 0px inset, rgba(255, 255, 255, 0.5) -3px -3px 6px 1px inset;
 }
-.SocialMedia {
-    gap: 20px;
+.MessageBox .Feedback{
+    height: 100px;
+    width: 488px;
+    margin-top: 4px;
+    border-radius: 5px;
+    border: none;
+    box-shadow: rgb(204, 219, 232) 3px 3px 6px 0px inset, rgba(255, 255, 255, 0.5) -3px -3px 6px 1px inset;
 }
-
-.SocialIcon img {
-    height: 30px;
-    width: auto;
+.MessageBox button{
+    height: 35px;
+    width: 150px;
+    margin-top: 4px;
+    border: none;
+    border-radius: 5px;
 }
