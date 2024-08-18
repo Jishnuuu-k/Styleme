@@ -3,7 +3,44 @@
     padding: 0;
 }
 .Footer{
-    height: 60px;
+    height: 260px;
     width: 100%;
     background-color: rgb(57, 57, 55);
+}
+.ContentBox1{
+    height: 200px;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    border-bottom: 4px solid rgb(70, 69, 69);
+    color: white;
+}
+.Contents01{
+    height: 150px;
+    width: 300px;
+}
+.Contents02{
+    height: 170px;
+    width: 800px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.Contents02 .FooterCard{
+    height: 180px;
+    width: 200px;
+    gap: 5px;
+}
+.ContentBox2{
+    height: 60px;
+    width: 100%;
+}
+.SocialMedia {
+    gap: 20px;
+}
+
+.SocialIcon img {
+    height: 30px;
+    width: auto;
 }
