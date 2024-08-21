@@ -16,7 +16,7 @@ function Footer() {
           </div>
         </div>
         <div className="FooterOptions">
-          <h4>Textiles</h4>
+          <h4>Textiles</h4><br />
           <div className="BoxinsideFooterOptions">
             <div className="Options">Home</div>
             <div className="Options">About Us</div>
@@ -33,6 +33,9 @@ function Footer() {
           <textarea name="feedback" className="feedback" rows={10} cols={40} placeholder='Message'></textarea><br />
           <input type="submit" placeholder='Submit' className='Submit'/>
         </div>
+      </div>
+      <div className="FooterSocials">
+        <div className="Socials"></div>
       </div>
     </div>
   )

@@ -1,0 +1,74 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.Banner{
+    height: 1700px;
+    width: 100%;
+}
+.SlideShow{
+    height: 600px;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.SlideShow .BoxinsideSlideshow{
+    height: 90%;
+    width: 95%;
+    background-color: white;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+h2{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: brown;
+    margin-left: 20px;
+}
+.NewlyArrived{
+    height: 400px;
+    width: 100%;
+    overflow-x: auto;
+    overflow-y: hidden;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 15px;
+}
+.NewlyArrived::-webkit-scrollbar {
+    display: none;
+}
+.MostPopular{
+    height: 400px;
+    width: 100%;
+    overflow-x: auto;
+    overflow-y: hidden;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 15px;
+}
+.MostPopular::-webkit-scrollbar {
+    display: none;
+}
+.Cards{
+    height: 350px;
+    width: 250px;
+    flex-shrink: 0;
+    border-radius: 8px;
+    transition: transform 0.2s ease;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+.Cards:hover  {
+    transform: scale(1.1);
+}
+.Cards .CardImage{
+    height: 280px;
+    width: 100%;
+}
+.Cards .CardDetails{
+    height: 70px;
+    width: 100%;
+    background-color: rgb(158, 158, 158);
+    border-bottom-left-radius: 8px;
+    border-bottom-right-radius: 8px;
+}
