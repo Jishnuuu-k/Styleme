@@ -18,30 +18,6 @@
     width: 95%;
     background-color: rgb(255, 255, 255);
     box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-} 
-.BoxinsideSlideshow .Contents{
-    height: 60%;
-    width: 40%;
-    margin-top: 5%;
-    margin-left: 7%;
-}
-.Contents h1{
-    font-size: 65px;
-}
-.Contents p{
-    font-size: 20px;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-}
-.BoxinsideSlideshow .BannerImage{
-    height: 100%;
-    width: 53%;
-}
-.BannerImage img{
-    height: 100%;
-    width: 100%;
 }
 h2{
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
