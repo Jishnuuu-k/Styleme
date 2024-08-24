@@ -17,9 +17,7 @@
     align-items: center;
     margin-left: 2%;
     color: white;
-    font-size: 25px;
-    font-weight: bold;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 30px;
 }
 .NavOptions{
     height: 60px;
@@ -32,7 +30,13 @@
     font-size: 17px;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     color: white;
-
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 200ms ease-in-out, color 300ms ease-in-out; 
+}
+.NavOptions div:hover {
+    background-color: grey;
 }
 @media only screen and (max-width: 600px) {
     .NavLogo{
