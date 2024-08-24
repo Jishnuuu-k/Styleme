@@ -5,7 +5,6 @@ function Banner() {
     <div className="Banner">
       <div className="SlideShow">
         <div className="BoxinsideSlideshow">
-<<<<<<< HEAD
           <div className="Contents">
             <h1>𝓛𝓘𝓞𝓡𝓐</h1><br />
             <p>From loom to luxury, Our textiles are a journey of craftsmanship</p>
@@ -13,14 +12,7 @@ function Banner() {
           <div className="BannerImage">
           <img src="./images/lady.jpg" alt="Banner.jpg" />
           </div>
-=======
-         <div className="SubBox">
-        <div className="Note"><p><b>Welcome to Threads of Enchantment, where fabric meets fantasy. Discover a world of luxurious silks, vibrant velvets, and intricate laces, each crafted to spark your creativity. Our curated collection and expert staff turn every visit into an inspiring journey. Dive into the extraordinary and let your imagination run wild!</b></p></div>
-        <img  className='BannerImage' src="/picture/banner2.png" alt="img" />
->>>>>>> e922b7711eb2f1826db2c10e5850376962f4392c
         </div>
-        </div>
-       
       </div>
       <div className="ABoutUs">
         <div className="BoxinsideAboutus">
@@ -46,7 +38,6 @@ function Banner() {
           <div className="CardImage">
             <img className='Img' src="https://i.pinimg.com/236x/68/bf/4f/68bf4f4956621a8904f8a816f11d4c2c.jpg" alt="" />
           </div>
-<<<<<<< HEAD
           <div className="CardDetails">
             <p>Name : Dress!</p>
             <p>Brand :</p>
@@ -67,8 +58,6 @@ function Banner() {
         <div className="CardImage">
           <img className='Img' src="./images/Kanjivaram Sarees.jpg" alt="" />
         </div>
-=======
->>>>>>> e922b7711eb2f1826db2c10e5850376962f4392c
           <div className="CardDetails">
             <p>Name : Dress!</p>
             <p>Brand :</p>
@@ -84,25 +73,6 @@ function Banner() {
           </div>
         </div>
         <div className="Cards">
-<<<<<<< HEAD
-=======
-        <div className="CardImage"></div>
-          <div className="CardDetails">
-            <p>Name : Dress!</p>
-            <p>Brand :</p>
-            <p>Price :</p>
-          </div>
-        </div>
-        <div className="Cards">
-        <div className="CardImage"></div>
-          <div className="CardDetails">
-            <p>Name : Dress!</p>
-            <p>Brand :</p>
-            <p>Price :</p>
-          </div>
-        </div>
-        <div className="Cards">
->>>>>>> e922b7711eb2f1826db2c10e5850376962f4392c
         <div className="CardImage"><img  className='Img' src="https://getethnic.com/wp-content/uploads/2023/12/30-Trending-Bridal-Lehengas-For-2024-Wedding_1.webp" alt="" /></div>
           <div className="CardDetails">
             <p>Name : Dress!</p>
