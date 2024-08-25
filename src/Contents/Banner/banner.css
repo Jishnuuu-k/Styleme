@@ -3,18 +3,18 @@
     padding: 0;
 }
 .Banner{
-    height: 2200px;
+    height: 2550px;
     width: 100%;
 }
 .SlideShow{
-    height: 600px;
+    height: 800px;
     width: 100%;
     display: flex;
     justify-content: space-around;
     align-items: center;
 }
 .SlideShow .BoxinsideSlideshow{
-    height: 90%;
+    height: 97%;
     width: 95%;
     background-color: rgb(255, 255, 255);
     box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
@@ -29,7 +29,7 @@
     margin-left: 7%;
 }
 .Contents h1{
-    font-size: 65px;
+    font-size: 80px;
 }
 .Contents p{
     font-size: 20px;
@@ -49,7 +49,7 @@ h2{
     margin-left: 20px;
 }
 .ABoutUs{
-    height: 600px;
+    height: 800px;
     width: 100%;
     display: flex;
     justify-content: space-around;
